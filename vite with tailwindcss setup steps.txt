@@ -1,0 +1,15 @@
+npm create vite@latest
+enter project name ...
+select your project type like -> vanila js
+if you only use js then select js or tys and js then click enter
+cd project folder 
+  npm install -D tailwindcss postcss autoprefixer
+  npx tailwindcss init 
+  npx tailwindcss init -p
+  modify style.css ->
+      @tailwindcss base ;
+      @tailwindcss components;
+      @tailwindcss utilitices;
+add this style.css link in your html page
+npm install 
+npm run dev
